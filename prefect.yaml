@@ -32,12 +32,3 @@ deployments:
   description: null
   entrypoint: flow.py:run_flow
   parameters: {}
-  work_pool:
-    name: default-work-pool
-    work_queue_name: null
-    job_variables: {}
-  schedules:
-  - interval: 3600.0
-    anchor_date: '2026-04-13T09:50:45.021542+00:00'
-    timezone: UTC
-    active: true
